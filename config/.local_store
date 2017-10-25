@@ -12,5 +12,19 @@
         "manageableState": "unmanaged",
         "type": "ApexClass",
         "mmState": "clean"
+    },
+    "day2GitExample.cls": {
+        "createdById": "0051I000000lcgGQAQ",
+        "createdByName": "seth boid",
+        "createdDate": "2017-10-25T23:37:07.000Z",
+        "fileName": "unpackaged/classes/day2GitExample.cls",
+        "fullName": "day2GitExample",
+        "id": "01p1I000007TUQgQAO",
+        "lastModifiedById": "0051I000000lcgGQAQ",
+        "lastModifiedByName": "seth boid",
+        "lastModifiedDate": "2017-10-25T23:37:07.000Z",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
     }
 }
