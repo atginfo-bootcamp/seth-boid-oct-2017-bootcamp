@@ -76,5 +76,53 @@
         "manageableState": "unmanaged",
         "type": "ApexClass",
         "mmState": "clean"
+    },
+    "LeadTrigger.trigger": {
+        "id": "01q1I000000QcnHQAS",
+        "name": "LeadTrigger",
+        "createdDate": "2017-11-01T23:07:30.000+0000",
+        "createdById": "0051I000000lcgGQAQ",
+        "namespacePrefix": null,
+        "lastModifiedById": "0051I000000lcgGQAQ",
+        "lastModifiedDate": "2017-11-01T23:52:14.000+0000",
+        "fullName": "LeadTrigger",
+        "fileName": "unpackaged/triggers/LeadTrigger.trigger",
+        "createdByName": "seth boid",
+        "lastModifiedByName": "seth boid",
+        "manageableState": "unmanaged",
+        "type": "ApexTrigger",
+        "mmState": "clean"
+    },
+    "ContactTrigger.trigger": {
+        "id": "01q1I000000QgjZQAS",
+        "name": "ContactTrigger",
+        "createdDate": "2017-11-02T21:45:34.000+0000",
+        "createdById": "0051I000000lcgGQAQ",
+        "namespacePrefix": null,
+        "lastModifiedById": "0051I000000lcgGQAQ",
+        "lastModifiedDate": "2017-11-02T22:07:32.000+0000",
+        "fullName": "ContactTrigger",
+        "fileName": "unpackaged/triggers/ContactTrigger.trigger",
+        "createdByName": "seth boid",
+        "lastModifiedByName": "seth boid",
+        "manageableState": "unmanaged",
+        "type": "ApexTrigger",
+        "mmState": "clean"
+    },
+    "ContactTriggerHelper.cls": {
+        "id": "01p1I000008daCTQAY",
+        "name": "ContactTriggerHelper",
+        "createdDate": "2017-11-02T21:46:31.000+0000",
+        "createdById": "0051I000000lcgGQAQ",
+        "namespacePrefix": null,
+        "lastModifiedById": "0051I000000lcgGQAQ",
+        "lastModifiedDate": "2017-11-02T23:59:14.000+0000",
+        "fullName": "ContactTriggerHelper",
+        "fileName": "unpackaged/classes/ContactTriggerHelper.cls",
+        "createdByName": "seth boid",
+        "lastModifiedByName": "seth boid",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
     }
 }
