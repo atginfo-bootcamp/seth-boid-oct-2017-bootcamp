@@ -8,6 +8,8 @@
 		<members>day5_maps</members>
 		<members>ContactTriggerHelper</members>
 		<members>LeadTriggerHelper</members>
+		<members>ApexBootCampUnitTest</members>
+		<members>ContactTriggerHelperTest</members>
 		<name>ApexClass</name>
 	</types>
 	<types>
