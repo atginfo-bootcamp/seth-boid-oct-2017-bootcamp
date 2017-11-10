@@ -20,15 +20,50 @@ private class ContactTriggerHelperTest {
 		}
 
 		insert account;
+
+		List<Account> accountsFromDB = [
+			SELECT Id 
+			FROM Account 
+			WHERE Name LIKE :accountName + '%'
+		];
+		List<Contact> contactList = new List<Contact>();
+		for(Account acct : accountsFromDB){
+
+			Integer numberOfContacts = (Integer)(Math.random()*4);
+
+			for(Integer i = 0;i<numberOfContacts;i++){
+				
+				Contact contact = new Contact();
+				contact.LastName = 'Test Boid';
+				contact.AccountId = acct.Id;
+				contactList.add(contact);	
+			}
+			
+		}
+		insert contactList;
 	}
 
 
 
-	@isTest static void test_method_one() {
+	@isTest static void insertTriggerTest() {
+
+		stageData(10, 'Seth');
+
+		List<Account> accountList = [
+			SELECT Name, Current_Number_of_Contacts__c,
+				(SELECT LastName, AccountId FROM Contacts)
+			FROM Account
+		];
+		System.assertEquals(accountList.size(), 10, 'You did not enter 10 accounts');
+
+		for (Account acct : accountList){
+			System.debug('For Account ' + acct.name + ' there are ' + acct.Contacts.size() + ' accounts');
+		}
 		// Implement test code
 	}
 	
-	@isTest static void test_method_two() {
+	@isTest static void updateTriggerTest() {
+		
 		// Implement test code
 	}
 	
