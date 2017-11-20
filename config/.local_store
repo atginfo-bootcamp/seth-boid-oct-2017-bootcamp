@@ -188,5 +188,37 @@
         "manageableState": "unmanaged",
         "type": "ApexClass",
         "mmState": "clean"
+    },
+    "Business.cls": {
+        "id": "01p1I00000BbeDUQAZ",
+        "name": "Business",
+        "createdDate": "2017-11-20T16:33:12.000+0000",
+        "createdById": "0051I000000lcgGQAQ",
+        "namespacePrefix": null,
+        "lastModifiedById": "0051I000000lcgGQAQ",
+        "lastModifiedDate": "2017-11-20T20:10:49.000+0000",
+        "fullName": "Business",
+        "fileName": "unpackaged/classes/Business.cls",
+        "createdByName": "seth boid",
+        "lastModifiedByName": "seth boid",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
+    },
+    "Employee.cls": {
+        "id": "01p1I00000BbeDZQAZ",
+        "name": "Employee",
+        "createdDate": "2017-11-20T16:33:31.000+0000",
+        "createdById": "0051I000000lcgGQAQ",
+        "namespacePrefix": null,
+        "lastModifiedById": "0051I000000lcgGQAQ",
+        "lastModifiedDate": "2017-11-20T18:36:07.000+0000",
+        "fullName": "Employee",
+        "fileName": "unpackaged/classes/Employee.cls",
+        "createdByName": "seth boid",
+        "lastModifiedByName": "seth boid",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
     }
 }
