@@ -64,26 +64,3 @@ public with sharing class LeadTriggerHelper {
 		upsert kingLeads;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
