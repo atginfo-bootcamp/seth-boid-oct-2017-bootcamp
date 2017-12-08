@@ -21,6 +21,15 @@
 		<members>AccountAndOppCreatorController</members>
 		<members>AccountAndOppCreatorController_ANDERS</members>
 		<members>AccountAndOppCreatorController_ANDERSTST</members>
+		<members>PassByReferenceExample</members>
+		<members>Animal</members>
+		<members>Dog</members>
+		<members>Fish</members>
+		<members>AnimalGod</members>
+		<members>BackToTheFuture</members>
+		<members>AsyncExecutionExample</members>
+		<members>CreateContactForAccountBatch</members>
+		<members>CreateAccountSchedulable</members>
 		<name>ApexClass</name>
 	</types>
 	<types>
