@@ -30,11 +30,13 @@
 		<members>AsyncExecutionExample</members>
 		<members>CreateContactForAccountBatch</members>
 		<members>CreateAccountSchedulable</members>
+		<members>OpportunityTriggerHandler</members>
 		<name>ApexClass</name>
 	</types>
 	<types>
 		<members>LeadTrigger</members>
 		<members>ContactTrigger</members>
+		<members>OpportunityTrigger</members>
 		<name>ApexTrigger</name>
 	</types>
 	<types>
