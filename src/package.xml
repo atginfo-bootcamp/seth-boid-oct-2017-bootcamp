@@ -31,12 +31,15 @@
 		<members>CreateContactForAccountBatch</members>
 		<members>CreateAccountSchedulable</members>
 		<members>OpportunityTriggerHandler</members>
+		<members>ProductTriggerHelper</members>
+		<members>Utils</members>
 		<name>ApexClass</name>
 	</types>
 	<types>
 		<members>LeadTrigger</members>
 		<members>ContactTrigger</members>
 		<members>OpportunityTrigger</members>
+		<members>ProductTrigger</members>
 		<name>ApexTrigger</name>
 	</types>
 	<types>
