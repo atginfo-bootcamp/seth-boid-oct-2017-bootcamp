@@ -2,10 +2,9 @@
 
 
 
-	<apex:form>
+	<apex:form >
 
-		<apex:actionFunction
-			action="{!toggleSelectAll}"
+		<apex:actionFunction action="{!toggleSelectAll}"
 			name="toggleSelectAll"
 			reRender="query-accounts"
 		>
@@ -29,7 +28,7 @@
 			</apex:pageBlockButtons>
 			<apex:pageBlockTable value="{! accountWrappers }" var="currAccountWrapper" >
 
-				<apex:column>
+				<apex:column >
 					<apex:facet name="header">
 						<apex:inputCheckbox value="{! selectAll }" onchange="toggleSelectAll()"/>
 					</apex:facet>	
