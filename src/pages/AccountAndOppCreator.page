@@ -1,19 +1,19 @@
 <apex:page controller="AccountAndOppCreatorController" tabStyle="Account">
-	<apex:form>
+	<apex:form >
 		<apex:pageBlock title="Input Data">
-			<apex:pageMessages/>
-			<apex:pageBlockSection title ="Account" columns="1">
+			<apex:pageMessages />
+			<apex:pageBlockSection title="Account" columns="1">
 				<apex:inputField value="{!account.name}"/>
 				<apex:inputField value="{!account.AccountNumber}"/>
 				<apex:inputField value="{!account.description}"/>
 				<apex:inputField required="true" value="{!account.type}"/>
 			</apex:pageBlockSection>
-			<apex:pageBlockSection title ="Contact" columns="1">
+			<apex:pageBlockSection title="Contact" columns="1">
 				<apex:inputField required="true" value="{!contact.firstName}"/>
 				<apex:inputField value="{!contact.lastName}"/>
 				<apex:inputField value="{!contact.Salutation}"/>
 			</apex:pageBlockSection>
-			<apex:pageBlockSection title ="Opportunity" columns="1">
+			<apex:pageBlockSection title="Opportunity" columns="1">
 				<apex:inputField value="{!opportunity.name}"/>
 				<apex:inputField value="{!opportunity.type}"/>
 				<apex:inputField value="{!opportunity.stageName}"/>
@@ -23,21 +23,21 @@
 		</apex:pageBlock>
 	</apex:form>
 	
-	<apex:form>
+	<apex:form >
 		<apex:pageBlock title="Output Data">
-			<apex:pageMessages/>
-			<apex:pageBlockSection title ="Account" columns="1">
+			<apex:pageMessages />
+			<apex:pageBlockSection title="Account" columns="1">
 				<apex:outputField value="{!account.name}"/>
 				<apex:outputField value="{!account.AccountNumber}"/>
 				<apex:outputField value="{!account.description}"/>
 				<apex:outputField value="{!account.type}"/>
 			</apex:pageBlockSection>
-			<apex:pageBlockSection title ="Contact" columns="1">
+			<apex:pageBlockSection title="Contact" columns="1">
 				<apex:outputField value="{!contact.firstName}"/>
 				<apex:outputField value="{!contact.lastName}"/>
 				<apex:outputField value="{!contact.Salutation}"/>
 			</apex:pageBlockSection>
-			<apex:pageBlockSection title ="Opportunity" columns="1">
+			<apex:pageBlockSection title="Opportunity" columns="1">
 				<apex:outputField value="{!opportunity.name}"/>
 				<apex:outputField value="{!opportunity.type}"/>
 				<apex:outputField value="{!opportunity.stageName}"/>

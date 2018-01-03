@@ -1,5 +1,5 @@
 <apex:page showHeader="true" sidebar="true" standardController="Account">
-	<apex:form>
+	<apex:form >
 		<apex:sectionHeader title="MyHeaderTitle" subtitle="MyHeaderSubTitle" />
 		<apex:pageBlock title="MyPageBlockTitle">
 			<apex:pageBlockButtons location="top">
@@ -23,20 +23,20 @@
 				<apex:outputField value="{!account.createdDate}"/>
 
 				<!-- these are not sObject fields -->
-				<apex:outputText label= "LABEL" value="This is some cool text!"/>
-				<apex:outputText label= " " value="This is some cool text (w/o a label)!"/>
-				<apex:outputText label= "Created Date" value="{!account.createdDate}"/>
-				<apex:outputText label= "18 Digit Id" value="{!casesafeid(account.Id)}"/>				
+				<apex:outputText label="LABEL" value="This is some cool text!"/>
+				<apex:outputText label=" " value="This is some cool text (w/o a label)!"/>
+				<apex:outputText label="Created Date" value="{!account.createdDate}"/>
+				<apex:outputText label="18 Digit Id" value="{!casesafeid(account.Id)}"/>				
 			</apex:pageBlockSection>
 		</apex:pageBlock>
 
-		<apex:outputPanel layout ="block">
+		<apex:outputPanel layout="block">
 			This is a div
 		</apex:outputPanel>
-		<apex:outputPanel layout ="inline">
+		<apex:outputPanel layout="inline">
 			This is a span
 		</apex:outputPanel>
-		<apex:outputPanel layout ="inline">
+		<apex:outputPanel layout="inline">
 			This is a span
 		</apex:outputPanel>
 
