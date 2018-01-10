@@ -662,7 +662,7 @@
         "createdById": "0051I000000lcgGQAQ",
         "namespacePrefix": null,
         "lastModifiedById": "0051I000000lcgGQAQ",
-        "lastModifiedDate": "2018-01-04T23:55:11.000+0000",
+        "lastModifiedDate": "2018-01-10T00:06:27.000+0000",
         "fullName": "ProductChangeEmailBatch",
         "fileName": "unpackaged/classes/ProductChangeEmailBatch.cls",
         "createdByName": "seth boid",
