@@ -33,6 +33,9 @@
 		<members>OpportunityTriggerHandler</members>
 		<members>Constants</members>
 		<members>ProductChangeEmailBatch</members>
+		<members>ProductTriggerHelperTest</members>
+		<members>ProductChangeEmailBatchTest</members>
+		<members>TestUtils</members>
 		<name>ApexClass</name>
 	</types>
 	<types>

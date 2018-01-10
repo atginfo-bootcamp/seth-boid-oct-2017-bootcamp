@@ -670,5 +670,53 @@
         "manageableState": "unmanaged",
         "type": "ApexClass",
         "mmState": "clean"
+    },
+    "ProductTriggerHelperTest.cls": {
+        "id": "01p1I00000FH3rMQAT",
+        "name": "ProductTriggerHelperTest",
+        "createdDate": "2018-01-10T22:24:20.000+0000",
+        "createdById": "0051I000000lcgGQAQ",
+        "namespacePrefix": null,
+        "lastModifiedById": "0051I000000lcgGQAQ",
+        "lastModifiedDate": "2018-01-10T23:47:13.000+0000",
+        "fullName": "ProductTriggerHelperTest",
+        "fileName": "unpackaged/classes/ProductTriggerHelperTest.cls",
+        "createdByName": "seth boid",
+        "lastModifiedByName": "seth boid",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
+    },
+    "ProductChangeEmailBatchTest.cls": {
+        "id": "01p1I00000FH3rRQAT",
+        "name": "ProductChangeEmailBatchTest",
+        "createdDate": "2018-01-10T22:25:20.000+0000",
+        "createdById": "0051I000000lcgGQAQ",
+        "namespacePrefix": null,
+        "lastModifiedById": "0051I000000lcgGQAQ",
+        "lastModifiedDate": "2018-01-10T23:03:47.000+0000",
+        "fullName": "ProductChangeEmailBatchTest",
+        "fileName": "unpackaged/classes/ProductChangeEmailBatchTest.cls",
+        "createdByName": "seth boid",
+        "lastModifiedByName": "seth boid",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
+    },
+    "TestUtils.cls": {
+        "id": "01p1I00000FH3rWQAT",
+        "name": "TestUtils",
+        "createdDate": "2018-01-10T22:28:58.000+0000",
+        "createdById": "0051I000000lcgGQAQ",
+        "namespacePrefix": null,
+        "lastModifiedById": "0051I000000lcgGQAQ",
+        "lastModifiedDate": "2018-01-10T22:46:49.000+0000",
+        "fullName": "TestUtils",
+        "fileName": "unpackaged/classes/TestUtils.cls",
+        "createdByName": "seth boid",
+        "lastModifiedByName": "seth boid",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
     }
 }
